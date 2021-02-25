@@ -27,10 +27,30 @@
 
 /*EX-4*/
 
+.ex-4-square {
+    transition: 3s;
+}
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/*EX-5*/   
+
+.ex-5-square:hover {
+    transform: scale(3);  /*ho messo  grandezze superiori per vedere l'effettiva differenza tra*/
+}              /*l'elemento senza interazioni, in over con il muose, e con l'effetiva selezione*/
 
 
-/*EX-5*/
+.ex-5-square:active {
+    transform: scale(2);
+}
+
 /*EX-6*/
+
+.ex-6-img:hover {
+    filter: GRAYSCALE(1);
+}
+
 /*EX-7*/
 /*EX-8*/
 /*EX-9*/
