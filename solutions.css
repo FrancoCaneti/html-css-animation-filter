@@ -58,7 +58,7 @@
 .ex-10-icon {
     animation: spin 1s linear infinite;
 }
-@keyframes spin {
+@keyframes spin: {
     0% {
         transform: rotate(1turn);
     }
