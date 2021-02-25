@@ -70,6 +70,16 @@
 }
 
 /*EX-9*/
+
+.ex-9-img {
+    transition: 3s;
+}
+.ex-9-img:hover {
+    filter: grayscale(0.6) sepia(0.5);
+    border-radius: 5%;
+    transform: scale(0.5);
+}
+
 /*EX-10*/
 /*EX-11*/
 /*EX-12*/
