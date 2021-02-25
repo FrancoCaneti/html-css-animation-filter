@@ -13,7 +13,7 @@
     transition: 2s;
 }
 .ex-2-square:active {
-    width: 1000px;
+    width: 1100px;
 }
 
 /*EX-3*/
@@ -52,7 +52,23 @@
 }
 
 /*EX-7*/
+
+.ex-7-img {
+    transition: 2s;
+}
+.ex-7-img:hover {
+    filter: SATUrate(.6) sepia(.5);
+}
 /*EX-8*/
+
+.ex-8-img {
+    transition:3s;
+}
+.ex-8-img:hover {
+    border-radius: 10%;
+    filter: grayscale(.6) sepia(.5);
+}
+
 /*EX-9*/
 /*EX-10*/
 /*EX-11*/
